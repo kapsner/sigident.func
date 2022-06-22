@@ -1,15 +1,13 @@
 # sigident.func (!!! currently under development !!!)
 
 <!-- badges: start -->
-[![R CMD Check via {tic}](https://github.com/miracum/clearly-sigident.func/workflows/R%20CMD%20Check%20via%20{tic}/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.func/actions)
-[![linting](https://github.com/miracum/clearly-sigident.func/workflows/lint/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.func/actions)
-[![test-coverage](https://github.com/miracum/clearly-sigident.func/workflows/test-coverage/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.func/actions)
-[![codecov](https://codecov.io/gh/miracum/clearly-sigident.func/branch/master/graph/badge.svg)](https://codecov.io/gh/miracum/clearly-sigident.func)
-[![pipeline status](https://gitlab.miracum.org/clearly/sigident.func/badges/master/pipeline.svg)](https://gitlab.miracum.org/clearly/sigident.func/commits/master)
-[![coverage report](https://gitlab.miracum.org/clearly/sigident.func/badges/master/coverage.svg)](https://gitlab.miracum.org/clearly/sigident.func/commits/master)
+[![R CMD Check via {tic}](https://github.com/kapsner/sigident.func/workflows/R%20CMD%20Check%20via%20{tic}/badge.svg?branch=master)](https://github.com/kapsner/sigident.func/actions)
+[![linting](https://github.com/kapsner/sigident.func/workflows/lint/badge.svg?branch=master)](https://github.com/kapsner/sigident.func/actions)
+[![test-coverage](https://github.com/kapsner/sigident.func/workflows/test-coverage/badge.svg?branch=master)](https://github.com/kapsner/sigident.func/actions)
+[![codecov](https://codecov.io/gh/kapsner/sigident.func/branch/master/graph/badge.svg)](https://codecov.io/gh/kapsner/sigident.func)
 <!-- badges: end -->
 
-This is the repository of the R package `sigident.func`. It provides functional analysis and is part of the `sigident` package framework: [https://github.com/miracum/clearly-sigident](https://github.com/miracum/clearly-sigident)
+This is the repository of the R package `sigident.func`. It provides functional analysis and is part of the `sigident` package framework: [https://github.com/kapsner/sigident](https://github.com/mikapsner/sigident)
 
 # Overview 
 
@@ -24,8 +22,8 @@ The functional analysis includes the following steps:
 You can install *sigident.func* with the following commands in R:
 
 ``` r
-install.packages("devtools")
-devtools::install_github("miracum/clearly-sigident.func")
+install.packages("remotes")
+remotes::install_github("kapsner/sigident.func")
 ```
 
 # Example
