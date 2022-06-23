@@ -1,6 +1,7 @@
 # sigident.func (!!! currently under development !!!)
 
 <!-- badges: start -->
+[![](https://img.shields.io/badge/doi-10.3390/cancers11101606-yellow.svg)](https://doi.org/10.3390/cancers11101606)
 [![R CMD Check via {tic}](https://github.com/kapsner/sigident.func/workflows/R%20CMD%20Check%20via%20{tic}/badge.svg?branch=master)](https://github.com/kapsner/sigident.func/actions)
 [![linting](https://github.com/kapsner/sigident.func/workflows/lint/badge.svg?branch=master)](https://github.com/kapsner/sigident.func/actions)
 [![test-coverage](https://github.com/kapsner/sigident.func/workflows/test-coverage/badge.svg?branch=master)](https://github.com/kapsner/sigident.func/actions)
